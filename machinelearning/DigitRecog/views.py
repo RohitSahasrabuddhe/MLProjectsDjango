@@ -10,3 +10,6 @@ def hello(request):
 
 def drawer(request):
    return render(request,'./DigitRecog/html/drawer.html')
+
+def submit(request):
+    return render(request,'./DigitRecog/html/hello.html')
