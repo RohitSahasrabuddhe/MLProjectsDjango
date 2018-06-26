@@ -7,3 +7,6 @@ def index(request):
 
 def hello(request):
    return render(request,'./DigitRecog/html/hello.html')
+
+def drawer(request):
+   return render(request,'./DigitRecog/html/drawer.html')
